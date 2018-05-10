@@ -1,0 +1,83 @@
+/*Color swatch
+orange #F46036
+blue  #2E294E
+blue-green #1B998B
+red #E71D36
+green #C5D86D
+*/
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.header_content{
+  color: #2E294E;
+  background-color: #E71D36;
+  width: 100%;
+}
+
+.brand_id{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+
+.header_logo{
+  width: 128px;
+  height: 128px;
+}
+
+.header_text{
+  float: right;
+  display: flex;
+  flex-flow: column;
+}
+.header_text h1{
+  float: right;
+  text-align: left;
+}
+
+.header_text h2{
+  width: 100%;
+  float: right;
+  text-align: center;
+}
+
+.section_divider{
+  background-color: #1B998B;
+  height: 5px;
+}
+
+#code_image{
+  width: 100%;
+}
+
+.featured h1{
+  color: #1B998B;
+}
+
+.featured_work{
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  background-color: #C5D86D;
+}
+
+.featured_item{
+  width: 100%;
+  max-width: 300px;
+  float: right;
+  border: 1px solid #E71D36;
+  margin: 3px;
+  padding: 5px;
+  display: block;
+  background-color: #FFFFFF;
+}
+
+.article_image{
+  width: 100%;
+}
+
+.article_link{
+  overflow-wrap: break-word;
+}

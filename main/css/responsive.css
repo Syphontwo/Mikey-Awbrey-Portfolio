@@ -1,0 +1,28 @@
+@media screen and (min-width:400px){
+  .header_text{
+    float: right;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .header_text h1{
+    float: right;
+    text-align: right;
+  }
+
+  .header_text h2{
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:800px){
+  body{
+    width: 800px;
+    margin: auto;
+  }
+  .featured_item{
+    max-width: 382px;
+  }
+
+}
