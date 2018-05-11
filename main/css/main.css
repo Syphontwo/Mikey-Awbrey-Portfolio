@@ -23,6 +23,7 @@ body {
 }
 
 .header_logo{
+  margin: 5px;
   width: 128px;
   height: 128px;
 }
